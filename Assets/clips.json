@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "label": "哇哦！",
+    "file": "01.m4a",
+    "duration": 1.583333
+  },
+  {
+    "id": 2,
+    "label": "哇！",
+    "file": "02.m4a",
+    "duration": 1.341655
+  },
+  {
+    "id": 3,
+    "label": "嗯？",
+    "file": "03.m4a",
+    "duration": 1.513333
+  },
+  {
+    "id": 4,
+    "label": "巴哈哈哈哈！",
+    "file": "04.m4a",
+    "duration": 3.341655
+  },
+  {
+    "id": 5,
+    "label": "呦吼吼吼！",
+    "file": "05.m4a",
+    "duration": 1.744989
+  },
+  {
+    "id": 6,
+    "label": "冰冰冰！",
+    "file": "06.m4a",
+    "duration": 1.536667
+  },
+  {
+    "id": 7,
+    "label": "哎呦，我去！",
+    "file": "07.m4a",
+    "duration": 1.211655
+  },
+  {
+    "id": 8,
+    "label": "啊——！",
+    "file": "08.m4a",
+    "duration": 1.768322
+  }
+]
