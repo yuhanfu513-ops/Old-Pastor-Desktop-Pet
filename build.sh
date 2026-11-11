@@ -12,7 +12,7 @@ for id in 6954 6957 6971 6958 6982 6983 6974 6978; do
   if [ ! -f "Assets/Expressions/IMG_$id.png" ]; then echo "缺少表情：Assets/Expressions/IMG_$id.png" >&2; exit 1; fi
 done
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
-swiftc -O -target arm64-apple-macosx14.0 -framework AppKit -framework AVFoundation Sources/main.swift Sources/SharedDance.swift -o "$APP/Contents/MacOS/LaomushiPet"
+swiftc -O -target arm64-apple-macosx14.0 -framework AppKit -framework AVFoundation Sources/main.swift Sources/SharedDance.swift Sources/UpdateChecker.swift -o "$APP/Contents/MacOS/LaomushiPet"
 cp -R Assets/. "$APP/Contents/Resources/"
 cp LICENSE-GoodThing "$APP/Contents/Resources/"
 cp LICENSE-SunPet "$APP/Contents/Resources/"
